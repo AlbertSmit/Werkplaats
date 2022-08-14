@@ -18,11 +18,11 @@
         "jsx": "react-jsx",
         "paths": {
             "@/*": ["src/*"],
-            "@routes/*": ["src/routes/*"],
             "@styles/*": ["src/styles/*"],
             "@assets/*": ["src/assets/*"],
             "@utilities/*": ["src/utilities/*"],
-            "@components/*": ["src/components/*"]
+            "@components/*": ["src/components/*"],
+            "@containers/*": ["src/containers/*"]
         }
     },
     "include": ["src", "vite.config.ts"],
