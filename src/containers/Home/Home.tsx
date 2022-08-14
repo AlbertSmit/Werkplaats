@@ -6,17 +6,6 @@ import styles from './Home.module.scss'
 // Destructure the styles.
 const { heroImage, article, header, subheader } = styles
 
-// Animation
-const container = {
-    hidden: { opacity: 0 },
-    show: {
-        opacity: 1,
-        transition: {
-            delayChildren: 0.5,
-        },
-    },
-}
-
 function Home(): JSX.Element {
     return (
         <article className={article}>
