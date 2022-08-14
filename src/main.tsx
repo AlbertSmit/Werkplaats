@@ -1,4 +1,5 @@
 import './styles/global.scss'
+import './styles/tokens.scss'
 import '@fontsource/inter'
 import 'the-new-css-reset/css/reset.css'
 

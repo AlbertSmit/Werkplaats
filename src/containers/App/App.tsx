@@ -1,7 +1,7 @@
+import { Home } from '@containers'
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
-import { Home } from '..'
 import styles from './App.module.scss'
 
 // Destructure the styles.

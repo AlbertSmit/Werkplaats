@@ -1,1 +1,1 @@
-export const exampleValue: string = 'Example.'
+export const exampleValue: string = 'hammer'

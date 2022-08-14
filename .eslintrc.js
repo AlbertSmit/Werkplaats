@@ -10,8 +10,6 @@ export default {
         'prettier',
     ],
 
-    plugins: ['unused-imports'],
-
     parserOptions: {
         ecmaVersion: 2022,
         sourceType: 'module',
