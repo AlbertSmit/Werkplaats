@@ -1,3 +1,5 @@
+import path from 'path';
+
 /**
  * Parse generated CSS and return normal-looking
  * and human readable classnames.
@@ -8,9 +10,8 @@
  export const generateScopedName = (
     name: string,
     filename: string,
-    css: string
   ) => {
-    let [file] = require("path").basename(filename).split(".");
+    let [file] = path.basename(filename).split(".");
   
     return `${file}-${name}`;
   };

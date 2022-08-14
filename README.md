@@ -25,13 +25,15 @@
 
 ```ts
 .
-└── /env                // Environment is housed here.
-└── /public             // Public assets (that never change)
+├── /env                // Environment is housed here.
+├── /public             // Public assets (that never change)
 └── /src
-    └── /assets         // Static assets that have to be hashed
-    └── /components     // Place to put your components.
-    └── /routes         // Routes can go here.
-    └── /definitions    // All TypeScript .d.ts files go here
+    ├── /assets         // Static assets that have to be hashed
+    ├── /common         // Default (and shared) Vite components.
+    ├── /components     // Place to put your components.
+    ├── /routes         // Routes can go here.
+    ├── /definitions    // All TypeScript .d.ts files go here
+    ├── /utilities      // Store utilities, like e.g. build utils.
     └── /styles         // Place to put your CSS tokens.
 ```
 
