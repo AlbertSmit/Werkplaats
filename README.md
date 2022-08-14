@@ -1,5 +1,13 @@
 # Werkplaats
 
+<p align="center">
+    <img style="height: 150px" src=".github/images/me.png"/>
+</p>
+
+> Every Smit needs a Werkplaats.
+
+---
+
 ## Features
 
 -   🔑 Fully typed.
