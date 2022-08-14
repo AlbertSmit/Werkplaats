@@ -1,0 +1,26 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.cache": true,
+        "**/.DS_Store": true,
+        "**/.editorconfig": true,
+        "**/.eslintcache": true,
+        "**/.git": true,
+        "**/.gitattributes": true,
+        "**/.husky": true,
+        "**/.pnp.*": true,
+        "**/.prettierignore": true,
+        "**/node_modules": true,
+        "**/yarn.lock": true
+    },
+    "search.exclude": {
+        "yarn-error.log": true,
+        "yarn.lock": true,
+        "**/.yarn": true,
+        "**/.pnp.*": true
+    }
+}
